@@ -1,3 +1,5 @@
+/*Header Styles*/
+
 .header{
     height: 50px;
     width: 100%;
@@ -61,3 +63,16 @@
     border-radius: 50%;
 }
 
+/*Body Styles*/
+
+.body-logo{
+    border: 1px solid black;
+}
+
+.body-form{
+    border: 1px solid black;
+}
+
+.body-buttons{
+    border: 1px solid black;
+}
