@@ -1,0 +1,42 @@
+.header{
+    height: 50px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.nav{
+
+}
+
+.links-header-Container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.links-header{
+    list-style: none;
+}
+
+.ancor-text{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.menu-apps-Container{
+    height: 25px;
+    width: 25px;
+}
+
+.menu-apps{
+    height: 25px;
+    width: 25px;
+}
+
+.profile-picture-Container{
+    height: 50px;
+}
+
+.profile-picture{
+    height: 50px;
+}
+
