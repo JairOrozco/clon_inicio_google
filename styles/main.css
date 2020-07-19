@@ -69,8 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 300px;
-    margin-bottom: 20px;
+    height: 200px;
+    margin-bottom: 10px;
 }
 
 .google-logo-Container{
@@ -78,7 +78,7 @@
 }
 
 .google-logo{
-    width: 400px;
+    width: 330px;
 }
 
 .body-form{
@@ -89,8 +89,8 @@
 }
 
 .input-search{
-    width: 700px;
-    height: 50px;
+    width: 600px;
+    height: 32px;
     border-radius: 25px;
     border: 1px solid transparent;
     box-shadow: 2px 2px 5px rgba(56, 56, 56, .2), -2px -2px 5px rgba(56, 56, 56, .2);
@@ -98,7 +98,8 @@
 
 .body-buttons{
     margin-top: 25px;
-    height: 163px;
+    height: 145px;
+    
 }
 
 .buttons-Container{
@@ -110,14 +111,27 @@
 
 .buttons{
     width: 180px;
-    height: 40px;
-    border: 1px solid transparent;
+    height: 35px;
+    border: 1px solid rgba(145, 145, 145, 0.2);
     border-radius: 8px;
     background-color: rgba(145, 145, 145, 0.2);
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: normal;
     margin-right: 15px;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+
+.buttons:active{
+    width: 177px;
+    height: 37px;
+    border:  1px solid rgba(145, 145, 145, 0.2);
+    border-radius: 6px;
+    background-color: rgba(145, 145, 145, 0.2);
+    
 }
 
 .text-under-buttons{
@@ -135,4 +149,60 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 16;
+}
+
+/*Footer Styles*/
+
+.footer{
+    background-color: rgba(145, 145, 145, 0.1); 
+    margin-top: 123px;
+}
+
+.fake-footer{
+    border-bottom: 1px solid rgba(145, 145, 145, 0.5);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.country{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+.real-footer{
+    
+    background-color: rgba(145, 145, 145, 0.1);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.about-google a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.about-google a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.terms-google a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.terms-google a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
 }
